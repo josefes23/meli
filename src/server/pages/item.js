@@ -14,7 +14,11 @@ export const itemPage = async (req, res) => {
           <meta charSet='UTF-8' />
           <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
           <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-          <title>MercadoLibre</title>
+          <meta name="robots" content="index"/>
+          <title>{data.item.title}</title>
+          <meta name="description" content={data.item.description}/>
+          <meta name="description" content={data.item.title}/>
+          <meta name="description" content='MercadoLibre'/>
           <link href='/static/commons.css' type='text/css' rel='stylesheet' />
           <link href='/static/item.css' type='text/css' rel='stylesheet' />
         </head>
