@@ -1,0 +1,54 @@
+header {
+  background: #ffe600;
+}
+
+.search-input,
+.search-input:focus {
+  font-size: 1.5em;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  width: 100%;
+  padding: 7px 40px 9px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+  margin: 8px 16px;
+}
+
+.header-search form {
+  display: flex;
+}
+
+.search-btn {
+  height: 36px;
+  width: 36px;
+  background: #eeeeee;
+  border: 0;
+  border-radius: 0px 4px 4px 0px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+.icon-search {
+  background-image: url('../../img/ic_search.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  background-image: url('../../img/logo_ml.png');
+  background-repeat: no-repeat;
+  height: 36px;
+  top: 8px;
+  width: 53;
+  position: absolute;
+  right: 32px;
+}

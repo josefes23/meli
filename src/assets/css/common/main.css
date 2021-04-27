@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background: #eeeeee;
+  color: #333333;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  line-height: 1.35;
+}
+
+.breadcrumb {
+  margin: 16px 0;
+  font-size: 1.16em;
+  color: #999999;
+}
+
+.breadcrum-item {
+  display: inline;
+}
+
+.breadcrum-item svg {
+  stroke: #999999;
+  width: 12px;
+  height: 10px;
+}
+
+main {
+  height: auto;
+}
